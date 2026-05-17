@@ -5699,6 +5699,245 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     font-size: 14px;
   }
 }
+
+/* Cloned section from URL */
+/* ===== pm-verify-section ===== */
+.pm-verify-section {
+  background: var(--primary, #1D2940);
+  padding: 80px 20px;
+  font-family: system-ui, sans-serif;
+  direction: ltr;
+  min-height: 60vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.pm-verify-container {
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* Divider */
+.pm-verify-divider {
+  width: 100%;
+  height: 1px;
+  background: rgba(212, 168, 67, 0.35);
+  margin: 20px 0;
+}
+
+/* ===== Verification Widget ===== */
+.pm-verify-widget {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(212, 168, 67, 0.3);
+  border-radius: 4px;
+  padding: 18px 20px;
+  margin: 10px 0;
+}
+
+.pm-verify-checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* Checkbox */
+.pm-verify-checkbox {
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+  border: 2px solid rgba(212, 168, 67, 0.6);
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+  position: relative;
+  outline: none;
+}
+
+.pm-verify-checkbox:hover {
+  border-color: #D4A843;
+  background: rgba(212, 168, 67, 0.12);
+  box-shadow: 0 0 0 3px rgba(212, 168, 67, 0.15);
+}
+
+.pm-verify-checkbox:focus {
+  box-shadow: 0 0 0 3px rgba(212, 168, 67, 0.35);
+  border-color: #D4A843;
+}
+
+.pm-verify-checkbox.checked {
+  background: var(--gradient-primary, linear-gradient(135deg, #D4A843 0%, #B8912F 100%));
+  border-color: #D4A843;
+}
+
+.pm-check-icon {
+  width: 16px;
+  height: 16px;
+  stroke: #1D2940;
+  stroke-width: 3;
+  opacity: 0;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  transform: scale(0.7);
+}
+
+.pm-verify-checkbox.checked .pm-check-icon {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Label */
+.pm-verify-label {
+  flex: 1;
+  font-size: 15px;
+  font-weight: 500;
+  color: #e8e8e8;
+  line-height: 1.4;
+}
+
+/* Brand badge */
+.pm-verify-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  min-width: 60px;
+}
+
+.pm-verify-brand-logo {
+  width: 36px;
+  height: 36px;
+}
+
+.pm-verify-brand-logo svg {
+  width: 100%;
+  height: 100%;
+  stroke: #D4A843;
+}
+
+.pm-verify-brand-name {
+  font-size: 9px;
+  font-weight: 700;
+  color: #D4A843;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.pm-verify-brand-sub {
+  font-size: 8px;
+  color: rgba(212, 168, 67, 0.65);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+/* ===== About Section ===== */
+.pm-verify-about {
+  margin-top: 4px;
+  padding: 6px 0 10px;
+}
+
+.pm-verify-about-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #c8c8c8;
+  margin: 0 0 8px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.pm-verify-about-text {
+  font-size: 13px;
+  color: #a0a8b8;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.pm-verify-link {
+  color: #D4A843;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  margin-left: 4px;
+  transition: color 0.2s ease, opacity 0.2s ease;
+  font-weight: 500;
+}
+
+.pm-verify-link:hover {
+  color: #B8912F;
+  opacity: 0.9;
+}
+
+.pm-verify-link:focus {
+  outline: 2px solid #D4A843;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ===== Meta Section ===== */
+.pm-verify-meta {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.pm-verify-meta-line {
+  font-size: 11.5px;
+  color: rgba(160, 168, 184, 0.7);
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  line-height: 1.6;
+  word-break: break-word;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  .pm-verify-section {
+    padding: 60px 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .pm-verify-container {
+    max-width: 100%;
+  }
+
+  .pm-verify-label {
+    font-size: 14px;
+  }
+
+  .pm-verify-brand {
+    min-width: 50px;
+  }
+
+  .pm-verify-brand-logo {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .pm-verify-widget {
+    padding: 14px 14px;
+  }
+
+  .pm-verify-checkbox-row {
+    gap: 10px;
+  }
+
+  .pm-verify-label {
+    font-size: 13px;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
