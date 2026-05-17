@@ -2529,7 +2529,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 
 .home-hero-section .home-hero-h1 {
   font-family: 'Inter', sans-serif;
-  font-size: clamp(2.6rem, 5vw, 3.8rem);
+  font-size: clamp(2rem, 3.5vw, 2.8rem);
   font-weight: 600;
   line-height: 1.18;
   letter-spacing: -0.01em;
@@ -2662,9 +2662,9 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   }
 
   .home-hero-section .home-hero-h1 {
-    font-size: clamp(1.75rem, 7vw, 2.4rem);
-    margin-bottom: 18px;
-  }
+  font-size: clamp(1.6rem, 5.5vw, 2rem);
+  margin-bottom: 18px;
+}
 
   .home-hero-section .home-hero-subtitle {
     font-size: 0.97rem;
@@ -6618,6 +6618,16 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   .pm-meta-line {
     font-size: 11px;
   }
+}
+
+.home-hero-section .home-hero-h1 {
+  font-size: clamp(2rem, 3.5vw, 2.8rem) !important;
+}
+
+@media (max-width: 767px) {
+.home-hero-section .home-hero-h1 {
+  font-size: clamp(1.6rem, 5.5vw, 2rem) !important;
+}
 }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
