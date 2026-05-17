@@ -7,21 +7,21 @@
 ## Pages
 
 ### Home
-https://prospera-mind-6196d710.zappy5.app
+https://example.com
 A premium digital wellness product offering a bundle of 10 guided wealth meditation videos designed to rewire the subconscious mind for financial abundance. The
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://prospera-mind-6196d710.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://prospera-mind-6196d710.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://prospera-mind-6196d710.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -48,6 +48,6 @@ Wellness & Personal Development
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://prospera-mind-6196d710.zappy5.app/sitemap.xml
-- Robots: https://prospera-mind-6196d710.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://prospera-mind-6196d710.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
