@@ -1,0 +1,53 @@
+# Prospera Mind — Generative Engine Optimization Map
+
+> A premium digital wellness product offering a bundle of 10 guided wealth meditation videos designed to rewire the subconscious mind for financial abundance. The brand exudes a dark, luxurious aesthetic — deep navy or black with gold accents — and positions itself at the intersection of neuroscience, sound frequency, and prosperity mindset coaching. The product is structured as a complete audio-visual journey, with each meditation targeting a specific psychological or energetic block to wealth. The tone is empowering, sophisticated, and results-driven, appealing to those who take their personal growth and financial transformation seriously.
+
+---
+
+## Pages
+
+### Home
+https://prospera-mind-6196d710.zappy5.app
+A premium digital wellness product offering a bundle of 10 guided wealth meditation videos designed to rewire the subconscious mind for financial abundance. The
+
+## Legal & Policy
+
+### Privacy Policy
+https://prospera-mind-6196d710.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://prospera-mind-6196d710.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://prospera-mind-6196d710.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Prospera Mind
+A premium digital wellness product offering a bundle of 10 guided wealth meditation videos designed to rewire the subconscious mind for financial abundance. The brand exudes a dark, luxurious aesthetic — deep navy or black with gold accents — and positions itself at the intersection of neuroscience, sound frequency, and prosperity mindset coaching. The product is structured as a complete audio-visual journey, with each meditation targeting a specific psychological or energetic block to wealth. The tone is empowering, sophisticated, and results-driven, appealing to those who take their personal growth and financial transformation seriously.
+
+## Target Audience
+- People looking to shift their money mindset and attract abundance
+- Money Mindset Seekers
+
+## Industry
+Wellness & Personal Development
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://prospera-mind-6196d710.zappy5.app/sitemap.xml
+- Robots: https://prospera-mind-6196d710.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://prospera-mind-6196d710.zappy5.app/llms-full.txt
